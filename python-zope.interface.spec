@@ -6,7 +6,7 @@ Release:	1
 Summary:	Interfaces for Python
 Source0:	http://pypi.python.org/packages/source/z/%{oname}/%{oname}-%{version}.zip
 License:	ZPL 2.1
-Group:		Development/Ruby
+Group:		Development/Python
 Url:		http://pypi.python.org/pypi/zope.interface
 BuildRequires:	python-devel python-setuptools
 
