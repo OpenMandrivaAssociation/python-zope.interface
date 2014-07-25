@@ -2,7 +2,7 @@
 
 Name:		python-%{oname}
 Version:	4.0.5
-Release:	1
+Release:	2
 Summary:	Interfaces for Python
 Source0:	http://pypi.python.org/packages/source/z/%{oname}/%{oname}-%{version}.zip
 License:	ZPL 2.1
