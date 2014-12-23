@@ -8,7 +8,7 @@ Source0:	http://pypi.python.org/packages/source/z/%{oname}/%{oname}-%{version}.z
 License:	ZPL 2.1
 Group:		Development/Ruby
 Url:		http://pypi.python.org/pypi/zope.interface
-BuildRequires:	python-devel python-setuptools
+BuildRequires:	python2-devel python2-setuptools
 
 %description
 ``zope.interface`` README
