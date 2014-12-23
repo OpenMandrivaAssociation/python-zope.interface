@@ -51,9 +51,9 @@ python setup.py test
 %doc src/zope.interface.egg-info/namespace_packages.txt
 %doc src/zope.interface.egg-info/requires.txt
 %doc src/zope.interface.egg-info/top_level.txt
-%{py_platsitedir}/zope/*.py*
-%{py_platsitedir}/zope/interface/*.py*
-%{py_platsitedir}/zope/interface/_zope_interface_coptimizations.so
-%{py_platsitedir}/zope/interface/tests/*.py*
-%{py_platsitedir}/zope.interface*.egg-info
+%{py2_platsitedir}/zope/*.py*
+%{py2_platsitedir}/zope/interface/*.py*
+%{py2_platsitedir}/zope/interface/_zope_interface_coptimizations.so
+%{py2_platsitedir}/zope/interface/tests/*.py*
+%{py2_platsitedir}/zope.interface*.egg-info
 
