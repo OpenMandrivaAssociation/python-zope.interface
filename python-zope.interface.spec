@@ -45,7 +45,7 @@ BuildRequires:	python2-devel
 Requires:	python2
 
 %description -n python2-%{oname}
-
+python2 %{oname} module
 
 %files -n python2-%{oname}
 %doc python2/*.txt python2/*.rst
