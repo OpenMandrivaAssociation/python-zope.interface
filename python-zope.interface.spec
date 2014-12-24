@@ -47,7 +47,6 @@ Requires:	python2
 
 
 %files -n python2-%{oname}
-%doc CHANGES.rst
 %doc COPYRIGHT.txt
 %doc LICENSE.txt
 %doc README.rst
@@ -59,11 +58,7 @@ Requires:	python2
 %doc src/zope.interface.egg-info/namespace_packages.txt
 %doc src/zope.interface.egg-info/requires.txt
 %doc src/zope.interface.egg-info/top_level.txt
-%{py2_platsitedir}/zope/*.py*
-%{py2_platsitedir}/zope/interface/*.py*
-%{py2_platsitedir}/zope/interface/_zope_interface_coptimizations.so
-%{py2_platsitedir}/zope/interface/tests/*.py*
-%{py2_platsitedir}/zope.interface*.egg-info
+%{py2_platsitedir}/zope/interface/
 #----------------------------------------
 
 %prep
@@ -93,7 +88,6 @@ popd
 
 
 %files
-%doc CHANGES.rst
 %doc COPYRIGHT.txt
 %doc LICENSE.txt
 %doc README.rst
@@ -105,9 +99,5 @@ popd
 %doc src/zope.interface.egg-info/namespace_packages.txt
 %doc src/zope.interface.egg-info/requires.txt
 %doc src/zope.interface.egg-info/top_level.txt
-%{py_platsitedir}/zope/*.py*
-%{py_platsitedir}/zope/interface/*.py*
-%{py_platsitedir}/zope/interface/_zope_interface_coptimizations.so
-%{py_platsitedir}/zope/interface/tests/*.py*
-%{py_platsitedir}/zope.interface*.egg-info
+%{py_platsitedir}/zope/interface/
 
