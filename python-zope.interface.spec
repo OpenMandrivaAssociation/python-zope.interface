@@ -1,4 +1,5 @@
 %define	oname	zope.interface
+%define py2_platsitedir %{_libdir}/python2.7/site-packages
 
 Name:		python-%{oname}
 Version:	4.0.5
