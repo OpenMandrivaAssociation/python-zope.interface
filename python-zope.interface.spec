@@ -30,13 +30,13 @@ For detailed documentation, please see http://docs.zope.org/zope.interface
 %setup -q -n %{oname}-%{version}
 
 %build
-python setup.py build
+python2 setup.py build
 
 %install
-python setup.py install --root=%{buildroot}
+python2 setup.py install --root=%{buildroot}
 
 %check
-python setup.py test
+python2 setup.py test
 
 %files
 %doc CHANGES.rst
