@@ -1,5 +1,6 @@
 %define	oname	zope.interface
-
+%define		py2info %{py2info}
+%define		py3info py3.4.egg-info
 
 Name:		python-%{oname}
 Version:	4.1.1
@@ -47,17 +48,14 @@ Requires:	python2
 
 
 %files -n python2-%{oname}
-%doc LICENSE.txt
-%doc README.rst
-%doc docs/README.rst
-%doc docs/README.ru.rst
-%doc docs/hacking.rst
-%doc src/zope.interface.egg-info/SOURCES.txt
-%doc src/zope.interface.egg-info/dependency_links.txt
-%doc src/zope.interface.egg-info/namespace_packages.txt
-%doc src/zope.interface.egg-info/requires.txt
-%doc src/zope.interface.egg-info/top_level.txt
+%doc *.txt *.rst
 %{py2_platsitedir}/zope/interface/
+%{py2_platsitedir}/%{oname}-%{version}-py2.7-nspkg.pth
+%{py2_platsitedir}/%{oname}-%{version}-%{py2info}/PKG-INFO
+%{py2_platsitedir}/%{oname}-%{version}-%{py2info}/*.txt
+%{py2_platsitedir}/%{oname}-%{version}-%{py2info}/not-zip-safe
+
+
 #----------------------------------------
 
 %prep
@@ -87,15 +85,9 @@ popd
 
 
 %files
-%doc LICENSE.txt
-%doc README.rst
-%doc docs/README.rst
-%doc docs/README.ru.rst
-%doc docs/hacking.rst
-%doc src/zope.interface.egg-info/SOURCES.txt
-%doc src/zope.interface.egg-info/dependency_links.txt
-%doc src/zope.interface.egg-info/namespace_packages.txt
-%doc src/zope.interface.egg-info/requires.txt
-%doc src/zope.interface.egg-info/top_level.txt
+%doc *.rst *.txt 
 %{py_platsitedir}/zope/interface/
-
+%{py_platsitedir}/%{oname}-%{version}-py3.4-nspkg.pth
+%{py_platsitedir}/%{oname}-%{version}-%{py3info}/PKG-INFO
+%{py_platsitedir}/%{oname}-%{version}-%{py3info}/*.txt
+%{py_platsitedir}/%{oname}-%{version}-%{py3info}/not-zip-safe
