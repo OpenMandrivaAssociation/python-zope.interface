@@ -47,7 +47,6 @@ Requires:	python2
 
 
 %files -n python2-%{oname}
-%doc COPYRIGHT.txt
 %doc LICENSE.txt
 %doc README.rst
 %doc docs/README.rst
@@ -88,7 +87,6 @@ popd
 
 
 %files
-%doc COPYRIGHT.txt
 %doc LICENSE.txt
 %doc README.rst
 %doc docs/README.rst
