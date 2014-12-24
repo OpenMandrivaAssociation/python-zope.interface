@@ -12,7 +12,7 @@ Group:		Development/Ruby
 Url:		http://pypi.python.org/pypi/zope.interface
 BuildRequires:	pkgconfig(python)
 BuildRequires:	python3egg(setuptools)
-
+BuildRequires:	BuildRequires:	gcc-c++, gcc, gcc-cpp
 
 
 
@@ -65,11 +65,17 @@ cp -r python3 python2
 
 %build
 pushd python3
+#gcc-ed this too. Sflo
+export CC=gcc
+export CXX=g++
 %__python setup.py build
 popd
 
 #------------------
 pushd python2
+#gcc-ed this too. Sflo
+export CC=gcc
+export CXX=g++
 %__python2 setup.py build
 popd
 
@@ -85,7 +91,7 @@ popd
 
 
 %files
-%doc python3/*.rst python3*.txt 
+%doc python3/*.rst python3/*.txt 
 %{py_platsitedir}/zope/interface/
 %{py_platsitedir}/%{oname}-%{version}-py3.4-nspkg.pth
 %{py_platsitedir}/%{oname}-%{version}-%{py3info}/PKG-INFO
