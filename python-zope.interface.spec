@@ -12,7 +12,7 @@ Group:		Development/Ruby
 Url:		http://pypi.python.org/pypi/zope.interface
 BuildRequires:	pkgconfig(python)
 BuildRequires:	python3egg(setuptools)
-BuildRequires:	BuildRequires:	gcc-c++, gcc, gcc-cpp
+BuildRequires:	gcc-c++, gcc, gcc-cpp
 
 
 
