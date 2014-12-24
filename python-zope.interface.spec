@@ -48,7 +48,7 @@ Requires:	python2
 
 
 %files -n python2-%{oname}
-%doc *.txt *.rst
+%doc python2/*.txt python2/*.rst
 %{py2_platsitedir}/zope/interface/
 %{py2_platsitedir}/%{oname}-%{version}-py2.7-nspkg.pth
 %{py2_platsitedir}/%{oname}-%{version}-%{py2info}/PKG-INFO
@@ -85,7 +85,7 @@ popd
 
 
 %files
-%doc *.rst *.txt 
+%doc python3/*.rst python3*.txt 
 %{py_platsitedir}/zope/interface/
 %{py_platsitedir}/%{oname}-%{version}-py3.4-nspkg.pth
 %{py_platsitedir}/%{oname}-%{version}-%{py3info}/PKG-INFO
