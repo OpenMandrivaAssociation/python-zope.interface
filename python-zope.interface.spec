@@ -1,5 +1,5 @@
 %define	oname	zope.interface
-%define		py2info %{py2info}
+%define		py2info py2.7.egg-info
 %define		py3info py3.4.egg-info
 
 Name:		python-%{oname}
