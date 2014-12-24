@@ -67,7 +67,7 @@ Requires:	python2
 #----------------------------------------
 
 %prep
-%setup -qn %{oname}-%{version}
+%setup -qc -n %{oname}-%{version}
 mv %{oname}-%{version} python3
 cp -r python3 python2
 
