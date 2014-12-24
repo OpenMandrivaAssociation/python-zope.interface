@@ -31,7 +31,7 @@ the `Design By Contract`_ methodology support in Python.
 
 .. _Design By Contract: http://en.wikipedia.org/wiki/Design_by_contract
 
-For detailed documentation, please see http://docs.zope.org/zope.interface
+For detailed documentation, please see http://docs.zope.org/zope.interface.
 
 
 
@@ -45,7 +45,7 @@ BuildRequires:	python2-devel
 Requires:	python2
 
 %description -n python2-%{oname}
-python2 %{oname} module
+python2 %{oname} module.
 
 %files -n python2-%{oname}
 %doc python2/*.txt python2/*.rst
