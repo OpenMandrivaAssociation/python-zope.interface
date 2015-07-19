@@ -4,7 +4,7 @@
 
 Name:		python-%{oname}
 Version:	4.1.1
-Release:	1
+Release:	2
 Summary:	Interfaces for Python
 Source0:	http://pypi.python.org/packages/source/z/%{oname}/%{oname}-%{version}.tar.gz
 Source100:	%{name}.rpmlintrc
