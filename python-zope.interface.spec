@@ -1,12 +1,12 @@
 %define	oname	zope.interface
 %define		py2info py2.7.egg-info
-%define		py3info py3.4.egg-info
+%define		py3info py%{py_ver}.egg-info
 
 Name:		python-%{oname}
-Version:	4.1.1
-Release:	3
+Version:	4.6.0
+Release:	1
 Summary:	Interfaces for Python
-Source0:	http://pypi.python.org/packages/source/z/%{oname}/%{oname}-%{version}.tar.gz
+Source0:	https://files.pythonhosted.org/packages/4e/d0/c9d16bd5b38de44a20c6dc5d5ed80a49626fafcb3db9f9efdc2a19026db6/zope.interface-4.6.0.tar.gz
 Source100:	%{name}.rpmlintrc
 License:	ZPL 2.1
 Group:		Development/Ruby
@@ -88,7 +88,7 @@ popd
 %files
 %doc python3/*.rst python3/*.txt 
 %{py_platsitedir}/zope/interface/
-%{py_platsitedir}/%{oname}-%{version}-py3.4-nspkg.pth
+%{py_platsitedir}/%{oname}-%{version}-py*-nspkg.pth
 %{py_platsitedir}/%{oname}-%{version}-%{py3info}/PKG-INFO
 %{py_platsitedir}/%{oname}-%{version}-%{py3info}/*.txt
 %{py_platsitedir}/%{oname}-%{version}-%{py3info}/not-zip-safe
