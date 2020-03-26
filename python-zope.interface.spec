@@ -3,10 +3,10 @@
 %define		py3info py%{py_ver}.egg-info
 
 Name:		python-%{oname}
-Version:	5.0.0
+Version:	5.0.1
 Release:	1
 Summary:	Interfaces for Python
-Source0:	https://files.pythonhosted.org/packages/4e/a2/0c1e3441940174a6b920e029376621ae656770d9221495910ab9b569eec9/zope.interface-5.0.0.tar.gz
+Source0:	https://files.pythonhosted.org/packages/87/43/fb6d188e05c2637629792b1f4a84cb25de51325448be8d705c8bb2f184ac/zope.interface-5.0.1.tar.gz
 Source100:	%{name}.rpmlintrc
 License:	ZPL 2.1
 Group:		Development/Ruby
