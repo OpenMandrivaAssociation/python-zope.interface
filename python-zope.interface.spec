@@ -4,7 +4,7 @@
 
 Name:		python-%{oname}
 Version:	5.4.0
-Release:	1
+Release:	2
 Summary:	Interfaces for Python
 Source0:	https://files.pythonhosted.org/packages/ae/58/e0877f58daa69126a5fb325d6df92b20b77431cd281e189c5ec42b722f58/zope.interface-5.4.0.tar.gz
 Source100:	%{name}.rpmlintrc
