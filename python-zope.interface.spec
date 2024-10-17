@@ -10,7 +10,7 @@ Source0:	https://files.pythonhosted.org/packages/ae/58/e0877f58daa69126a5fb325d6
 Source100:	%{name}.rpmlintrc
 License:	ZPL 2.1
 Group:		Development/Ruby
-Url:		http://pypi.python.org/pypi/zope.interface
+Url:		https://pypi.python.org/pypi/zope.interface
 BuildRequires:	pkgconfig(python)
 BuildRequires:	python-setuptools
 
